@@ -1,7 +1,7 @@
 # Docker and Kubernetes
 During my learning I kept track of all the important commands for Docker and Kubernetes.
 
-**Feel free to add more commands to this File**
+<p align="center"><b><ins>Feel free to add more commands to this File</ins></b></p>
 
 ## Docker Cheatbook
 ### Docker CLI
