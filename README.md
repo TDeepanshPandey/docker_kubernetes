@@ -1,9 +1,10 @@
 # Docker and Kubernetes
-During my learning I kept track of all the important commands for Docker and Kubernetes.
+During my Udemy course, I kept track here of all the important commands for Docker and Kubernetes.
 
-<p align="center"><b><ins>Feel free to add more commands to this File</ins></b></p>
+**Feel free to add more commands to this File**
 
 ## Docker Cheatbook
+
 ### Docker CLI
 1. docker run image_name : to run specified docker image.
 2. docker run image_name command : extension to above with command parameter override the default
@@ -23,6 +24,8 @@ During my learning I kept track of all the important commands for Docker and Kub
 16. docker build -t testbuild:latest . : build the image with a tag specified after tag file
 17. docker commit -c start_command container_id : creates a new image from the current container with specified start command
 18. docker run -p source_port : container_port image_id : points the local network port to container port
+19. docker build -f Dockerfile.dev . : Specify specific docker file to run from.
+20. docker run reference1 reference2 image_id :
 
 ### Docker Compose - Fast and Multicommands alternative to Docker CLI
 1. docker-compose : avoid repetitive tasks with fast and multicommands
