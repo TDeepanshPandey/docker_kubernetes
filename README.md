@@ -23,7 +23,7 @@ During my Udemy course, I kept track here of all the important commands for Dock
 15. docker build . : build the image from a docker file
 16. docker build -t testbuild:latest . : build the image with a tag specified after tag file
 17. docker commit -c start_command container_id : creates a new image from the current container with specified start command
-18. docker run -p source_port : container_port image_id : points the local network port to container port
+18. docker run -p source_port:container_port <image:id> : container_port image_id : points the local network port to container port
 19. docker build -f Dockerfile.dev . : Specify specific docker file to run from.
 20. docker run reference1 reference2 image_id :
 
@@ -42,3 +42,11 @@ During my Udemy course, I kept track here of all the important commands for Dock
 3. CMD
 4. COPY
 5. WORKDIR
+
+### Creating a Production-Grade Workflow
+See frontend_example. Things we did - 
+1. Divided docker file for dev and production version separately.
+2. To reflect the development changes immediately. We can use docker volumes.
+```
+docker run -it -p 3000:3000 -v /app/node_modules -v ${PWD}:/app frontend
+```
