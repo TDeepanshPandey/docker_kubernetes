@@ -1,4 +1,5 @@
 # Docker and Kubernetes
+
 During my Udemy course, I kept track here of all the important commands for Docker and Kubernetes.
 
 **Feel free to add more commands to this File**
@@ -6,6 +7,7 @@ During my Udemy course, I kept track here of all the important commands for Dock
 ## Docker Cheatbook
 
 ### Docker CLI
+
 1. docker run image_name : to run specified docker image.
 2. docker run image_name command : extension to above with command parameter override the default
 3. docker ps : list all running containers
@@ -27,8 +29,9 @@ During my Udemy course, I kept track here of all the important commands for Dock
 19. docker build -f Dockerfile.dev . : Specify specific docker file to run from.
 20. docker run reference1 reference2 image_id :
 
-### Docker Compose - Fast and Multicommands alternative to Docker CLI
-1. docker-compose : avoid repetitive tasks with fast and multicommands
+### Docker Compose - Fast and Multi-commands alternative to Docker CLI
+
+1. docker-compose : avoid repetitive tasks with fast and multi-commands
 2. docker-compose up : equivalent to docker run image_id
 3. docker-compose up --build : equivalent to docker build and run together
 4. docker-compose up -d : containers running in the background
@@ -37,6 +40,7 @@ During my Udemy course, I kept track here of all the important commands for Dock
 7. docker-compose ps : to find all the running containers
 
 ### Docker File Keywords
+
 1. FROM
 2. RUN
 3. CMD
@@ -44,9 +48,12 @@ During my Udemy course, I kept track here of all the important commands for Dock
 5. WORKDIR
 
 ### Creating a Production-Grade Workflow
-See frontend_example. Things we did - 
+
+See frontend_example. Things we did -
+
 1. Divided docker file for dev and production version separately.
 2. To reflect the development changes immediately. We can use docker volumes.
-```
+
+```bash
 docker run -it -p 3000:3000 -v /app/node_modules -v ${PWD}:/app frontend
 ```
