@@ -57,3 +57,26 @@ See frontend_example. Things we did -
 ```bash
 docker run -it -p 3000:3000 -v /app/node_modules -v ${PWD}:/app frontend
 ```
+
+# Kubernetes
+
+## Commands
+
+- Kubectl apply -f file_name : apply the configuration file
+- Kubectl get pods : list all the pods
+- Kubectl get services : list all the services
+- kubectl describe object_type object_name : describe the object
+- kubectl delete -f file_name : delete the object from the configuration file
+- kubectl apply -f deployment_file_name : apply the deployment configuration file
+- kubectl get deployments : list all the deployments
+- kubectl get pods -o wide : list all the pods with more details
+- kubectl set image object_type / object_name container_name=image_name : update the image of the deployment
+
+### Imperative vs Declarative Deployment
+
+- Imperative : Do exactly these steps to arrive at this container setup
+- Declarative : Our container setup should look like this, make it happen. Only 4 properties can be changed in pods. 
+
+### Deployment
+
+Manages a set of identical pods, ensuring that they have the correct config and that the right number exists.
