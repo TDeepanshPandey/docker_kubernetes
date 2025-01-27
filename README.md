@@ -211,4 +211,16 @@ Copy and paste the token into the login form of the dashboard. Be careful not to
 
 The above steps can be found in the official documentation:
 
-https://github.com/kubernetes/dashboard/blob/master/docs/user/access-control/creating-sample-user.md
+[URL](https://github.com/kubernetes/dashboard/blob/master/docs/user/access-control/creating-sample-user.md)
+
+## Scaffold
+
+Scaffold is a tool that watches your files for changes and automatically rebuilds your Docker image and restarts your Kubernetes pods. It's a great tool for speeding up your development workflow.
+
+1. Install Scaffold
+
+```bash
+choco install scaffold
+```
+
+Create a scaffold.yaml file in the root of your project.
