@@ -1,12 +1,12 @@
+![Image_Link](kubernetes and docker.png)
+
 # Docker and Kubernetes
 
-During my Udemy course, I kept track here of all the important commands for Docker and Kubernetes.
+This repository contains the code for the Docker and Kubernetes course on Udemy [Course_Link](https://www.udemy.com/course/docker-and-kubernetes-the-complete-guide/). During the course, I have learned about Docker, Kubernetes, and how to deploy a multi-container application to a Kubernetes cluster. I also did a mini-project on deploying a multi-container application to a Google Cloud Cluster [Project_URL](https://github.com/TDeepanshPandey/Kubernetes_GCP_Projects).
 
-**Feel free to add more commands to this File**
+Certification of completion can be found [here](https://www.udemy.com/certificate/UC-47db716b-f519-40ce-b9cf-d5477d7ba4d9/).
 
-## Docker Cheatbook
-
-### Docker CLI
+## Docker
 
 1. *docker run image_name* : to run specified docker image.
 2. *docker run image_name command* : extension to above with command parameter override the default
