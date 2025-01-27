@@ -1,4 +1,4 @@
-![Image_Link](kubernetes and docker.png)
+![Image_Link](kubernetes_and_docker.png)
 
 # Docker and Kubernetes
 
