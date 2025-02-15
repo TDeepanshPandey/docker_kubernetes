@@ -1,3 +1,5 @@
+[![wakatime](https://wakatime.com/badge/user/d9585be0-a800-4e7a-9c42-e2fb31c12a87/project/018e39fb-48b9-43f6-b713-2b9169597527.svg)](https://wakatime.com/badge/user/d9585be0-a800-4e7a-9c42-e2fb31c12a87/project/018e39fb-48b9-43f6-b713-2b9169597527)
+
 ![Image_Link](kubernetes_and_docker.png)
 
 # Docker and Kubernetes
